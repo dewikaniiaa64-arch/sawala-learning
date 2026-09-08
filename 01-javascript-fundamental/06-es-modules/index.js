@@ -1,5 +1,5 @@
 import readline from "readline";
-import { tambah, kurang, kali, bagi } from "./operasi.js"
+import { tambah, kurang, kali, bagi } from "./math.js"
 
 const rl = readline.createInterface({
     input: process.stdin,
