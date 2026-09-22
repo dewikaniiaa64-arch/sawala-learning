@@ -15,4 +15,4 @@ async function ambilData() {
         console.log("proses selesai");
     }
 }
-ambilData()
+ambilData();
