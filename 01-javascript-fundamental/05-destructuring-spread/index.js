@@ -23,3 +23,25 @@ let penduduk = { nama: "sagi", umur: 18 };
 let dataBaru = { ...penduduk, status: "mahasiswa" }
 console.log(dataBaru)
 
+const dataSiswa = [
+    {
+        name: "yaser",
+        age: 23
+    },
+
+    {
+        name: "rayhan",
+        age: 24
+    },
+
+    {
+        name: "albi",
+        age: 25
+    }
+];
+const dataSiswaAtas = dataSiswa.filter(
+    (siswa) => siswa.age > 23);
+
+console.log(dataSiswaAtas);
+
+

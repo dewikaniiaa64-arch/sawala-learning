@@ -5,8 +5,6 @@ console.log(buah[1]);
 console.log(buah[2]);
 console.log(buah.length);
 
-buah.push("pear")
-console.log(buah);
 
 buah.pop()
 console.log(buah);
