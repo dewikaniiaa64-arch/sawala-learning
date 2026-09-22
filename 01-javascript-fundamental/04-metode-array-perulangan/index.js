@@ -1,6 +1,6 @@
 // --- PREPARASI DATA ---
 let angka = [1, 2, 3, 4, 5];
-let buah = ["apel", "anggur", "sirsak"]; // Ditambahkan agar variabel 'buah' tidak error!
+let buah = ["apel", "anggur", "sirsak"];
 let kelas = [34, 36, 40];
 let bunga = ["mawar", "anggrek", "lily"];
 
