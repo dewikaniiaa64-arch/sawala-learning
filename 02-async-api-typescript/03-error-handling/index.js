@@ -4,7 +4,7 @@ function cekData() {
         if (berhasil) {
             resolve("data berhasil diambil");
         } else {
-            reject("data tdk berhasil diambil");
+            reject("data tidak berhasil diambil");
         }
     });
 }
