@@ -8,7 +8,7 @@ async function main() {
     users = await getUser();
 
     if (users.length === 0) {
-        errorMessage = "Data User Kosong"
+        errorMessage = "Data User tidak ada"
     }
     isLoading = false;
 }

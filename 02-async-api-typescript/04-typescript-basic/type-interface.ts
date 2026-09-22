@@ -6,6 +6,6 @@ interface Produk {
 const dataProduk: Produk = {
     nama: "buku",
     harga: 5000,
-    stok: 50,
+    stok: 40,
 }
 

@@ -18,3 +18,5 @@ async function tampilkanData() {
 }
 tampilkanData();
 
+
+
