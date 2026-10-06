@@ -1,0 +1,14 @@
+{
+  "name": "02-npm-package-json",
+  "version": "1.0.0",
+  "description": "Latihan npm & package.json",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "hello": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
