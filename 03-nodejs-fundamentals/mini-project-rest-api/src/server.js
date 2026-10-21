@@ -16,5 +16,5 @@ app.get('/', (req, res) => {
 app.use('/articles', articlesRouter);
 
 app.listen(PORT, () => {
-    console.log(`Server jalan di: http://localhost:${PORT}`);
+    console.log(`Server berjalan di: http://localhost:${PORT}`);
 });

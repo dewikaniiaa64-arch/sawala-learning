@@ -1,4 +1,4 @@
-export function tambah(a, b) {
+export function jumlah(a, b) {
     return a + b;
 }
 

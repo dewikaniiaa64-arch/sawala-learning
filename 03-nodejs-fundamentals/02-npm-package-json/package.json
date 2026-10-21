@@ -1,7 +1,7 @@
 {
   "name": "02-npm-package-json",
   "version": "1.0.0",
-  "description": "Latihan npm & package.json",
+  "description": "Latihan npm & package.json untuk manajemen dependensi",
   "type": "module",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
     "hello": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Kania",
   "license": "ISC"
 }

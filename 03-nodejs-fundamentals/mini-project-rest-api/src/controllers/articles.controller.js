@@ -1,6 +1,6 @@
 // "Database" sementara
 let articles = [
-    { id: 1, judul: 'Belajar Node.js', penulis: 'Budi', isi: 'Node.js adalah runtime JavaScript...' },
+    { id: 1, judul: 'Belajar Node.js', penulis: 'Yahya', isi: 'Node.js adalah runtime JavaScript...' },
     { id: 2, judul: 'Belajar Express', penulis: 'Siti', isi: 'Express adalah framework web...' }
 ];
 let nextId = 3;
