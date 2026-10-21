@@ -1,6 +1,6 @@
 # Mini Project REST API - Daftar Artikel
 
-Project ini adalah REST API sederhana untuk mengelola data artikel (CRUD) menggunakan **Node.js**, **Express.js**, dan **dotenv**. API ini dirancang untuk memenuhi tugas mini project Minggu 5-6.
+Project ini adalah REST API yang sederhana untuk mengelola data artikel (CRUD) menggunakan **Node.js**, **Express.js**, dan **dotenv**. API ini dirancang untuk memenuhi tugas mini project Minggu 5-6.
 
 ## Fitur
 - Menampilkan semua artikel (`GET`)
