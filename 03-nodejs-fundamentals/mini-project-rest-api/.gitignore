@@ -1,0 +1,3 @@
+# Konfigurasi Git untuk project REST API
+node_modules/
+.env

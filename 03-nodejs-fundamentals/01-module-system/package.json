@@ -1,0 +1,14 @@
+{
+  "name": "01-module-system",
+  "version": "1.0.0",
+  "description": "Latihan modul system Node.js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kania",
+  "license": "ISC"
+}
