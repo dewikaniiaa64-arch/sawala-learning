@@ -36,3 +36,10 @@ Dashboard artikel sederhana yang dibuat menggunakan **React, TypeScript, dan Vit
 
 Project ini dibuat untuk mempelajari dasar React dan TypeScript, termasuk components, props, `useState`, `map()`, dan `filter()`.
 
+## 📈 Progress Minggu 7-8
+- [x] Setup Project Vite + React + TypeScript
+- [x] Membuat komponen `Card` dan `Button`
+- [x] Implementasi State (`useState`) untuk pencarian & show/hide
+- [x] Styling UI dengan CSS
+- [x] Menambahkan README (Cara menjalankan server)
+- [ ] Integrasi API dengan `useEffect` (Materi Lanjutan)
