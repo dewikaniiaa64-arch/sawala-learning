@@ -1,32 +1,38 @@
-# React + TypeScript + Vite
+# Mini Project React Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Dashboard artikel sederhana yang dibuat menggunakan **React, TypeScript, dan Vite** sebagai tugas Mini Project Minggu 7–8.
 
-Currently, two official plugins are available:
+## Fitur
+- Menampilkan daftar artikel.
+- Pencarian artikel berdasarkan judul.
+- Menampilkan dan menyembunyikan daftar artikel.
+- Tampilan responsif menggunakan CSS.
+- Komponen yang dapat digunakan kembali (`Card` dan `Button`).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Teknologi
+- React
+- TypeScript
+- Vite
+- CSS
 
-## React Compiler
+## Cara Menjalankan
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone repository dan masuk ke folder project.
+   ```bash
+   git clone URL_REPOSITORY
+   cd mini-project-react-dashboard
+   ```
+2. Install dependencies.
+   ```bash
+   npm install
+   ```
+3. Jalankan development server.
+   ```bash
+   npm run dev
+   ```
+4. Buka alamat lokal yang muncul di terminal, biasanya `http://localhost:5173/`.
 
-## Expanding the Oxlint configuration
+## Tujuan
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Project ini dibuat untuk mempelajari dasar React dan TypeScript, termasuk components, props, `useState`, `map()`, dan `filter()`.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
