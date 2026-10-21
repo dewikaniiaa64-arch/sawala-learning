@@ -6,7 +6,7 @@ export function ArticleCard({ title, category, slug }: { title: string; category
             <span className="text-sm font-bold text-purple-600">{category}</span>
             <h2 className="text-xl font-semibold my-2">{title}</h2>
             <Link href={`/articles/${slug}`} className="text-blue-500 hover:underline">
-                Baca selengkapnya &rarr;
+                Baca selenkapnya &rarr;
             </Link>
         </div>
     );
