@@ -16,7 +16,7 @@ REST API sederhana untuk mengelola data artikel menggunakan **Node.js, Express.j
 - Express.js
 - dotenv
 
-## Cara Menjalankan
+## Cara Menjalankannya
 
 1. Clone repository dan masuk ke folder project.
    ```bash
